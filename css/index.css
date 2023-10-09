@@ -177,8 +177,11 @@ td {
   gap: 2rem;
 }
 
+#header > h1{
+  font-size: 2.5vw;
+}
 
-@media (max-width: 740px) {
+@media (max-width: 850px) {
   .name{
       font-size: 70%;
     }
@@ -189,7 +192,7 @@ td {
       font-size: 70%;
     }
     #header > h1{
-      font-size: 85%;
+      font-size: 90%;
     }
 }
 
@@ -203,9 +206,6 @@ td {
   .points{
     font-size: 80%;
   }
-  #header > h1{
-    font-size: 85%;
-  }
 }
 
 @media (max-width: 390px) {
@@ -216,9 +216,6 @@ td {
     font-size: 90%;
   }
   .points{
-    font-size: 90%;
-  }
-  #header > h1{
     font-size: 90%;
   }
 }
